@@ -1,0 +1,27 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure html and body take up the full height */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Ensure the container takes up the full height and width */
+#page-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Change this to match your slide background color */
+}
+
+/* Example content styles */
+#page-container h1, #page-container p {
+    margin: 20px;
+}
